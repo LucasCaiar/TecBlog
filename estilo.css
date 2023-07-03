@@ -82,6 +82,21 @@ img{
     float: left;
 
 }
+.postagens-recentes{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.titulo3 {
+    color:#565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+.texto-lateral{
+    border-bottom: 1px solid #ccc;
+    font-size: 0.8em;
+    padding: 5px;
+}
 /****RODAPÉ***<-------------*/
 #rodape {
     clear: both;
