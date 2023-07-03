@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    background-color: #e6e6e6;
+    font-family:'Trebuchet MS', 'Helvitica', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/**CABEÇALHO E MENU*<-------------*/
+a:link, a:visited {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+a:hover {
+    background-color: #fff;
+    color: #f7b600;
+}
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+#main {
+    text-align: center;
+    background-color: #f7b600;
+}
+.titulo {
+    padding: 2em;
+}
+.menu {
+    padding: 1em;
+}
+.branco {
+    color: #fff;
+}
+/**CONTEUDO<-------------*/
+#conteudo {
+    width: 920px;
+    margin-inline: auto;
+    border: 1px solid black;
+}
+/* .postagens > h2 {
+    color: #f7b600;
+    padding: 20px;
+    border:1px red solid;   
+} */
+.postagens, .lateral {
+    /* border:1px solid blue; */
+}
+.postagens {
+    /* width: 660px; */
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.lateral {
+    width: 240px;
+    float: right;
+}
+.eu {
+    width: 660px;
+
+}
+/****RODAPÉ***<-------------*/
+#rodape {
+    clear: both;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
