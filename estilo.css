@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-size: 1em;
@@ -52,11 +53,14 @@ h1 {
     /* border:1px solid blue; */
 }
 .postagens {
-    /* width: 660px; */
+    width: 660px;
     float: left;
     padding: 20px;
     margin-bottom: 20px;
     background-color: white;
+}
+img{
+    width: 100%;
 }
 .lateral {
     width: 240px;
